@@ -57,10 +57,10 @@ const Hero = () => {
           />
 
           <p className="text-center md:tracking-wider mb-4 text-sm md:text-lg lg:text-2xl">
-            We got a lot of assets and stuff!
+            Just a few simple steps are enough to make money with real estate!
           </p>
 
-          <a href="#about">
+          <a href="#community">
             <MagicButton
               title="Explore"
               icon={<FaLocationArrow />}

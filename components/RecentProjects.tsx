@@ -19,7 +19,7 @@ const RecentProjects = () => {
             key={item.id}
           >
             <PinContainer
-              title="/axiomaportal.com"
+              title="axioma portal"
               href="https://www.axiomaportal.com/"
             >
               <div className="relative flex items-center justify-center sm:w-96 w-[80vw] overflow-hidden h-[20vh] lg:h-[30vh] mb-10">
