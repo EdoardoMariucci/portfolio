@@ -1,14 +1,17 @@
+import { Lightformer } from "@react-three/drei";
+
 export const navItems = [
-  { name: "About", link: "#about" },
+  { name: "Community", link: "#community" },
   { name: "Projects", link: "#projects" },
-  { name: "Testimonials", link: "#testimonials" },
+  { name: "About Us", link: "#aboutus" },
+  { name: "What's Next", link: "#next" },
   { name: "Contact", link: "#contact" },
 ];
 
 export const gridItems = [
   {
     id: 1,
-    title: "I prioritize client collaboration, fostering open communication ",
+    title: "A strong community focus on real estate investment, cryptocurrency and more.",
     description: "",
     className: "lg:col-span-3 md:col-span-6 md:row-span-4 lg:min-h-[60vh]",
     imgClassName: "w-full h-full",
@@ -18,7 +21,7 @@ export const gridItems = [
   },
   {
     id: 2,
-    title: "I'm very flexible with time zone communications",
+    title: "Assets of all kinds all over the way",
     description: "",
     className: "lg:col-span-2 md:col-span-3 md:row-span-2",
     imgClassName: "",
@@ -28,8 +31,8 @@ export const gridItems = [
   },
   {
     id: 3,
-    title: "My tech stack",
-    description: "I constantly try to improve",
+    title: "Our licence",
+    description: "We believe in transparency",
     className: "lg:col-span-2 md:col-span-3 md:row-span-2",
     imgClassName: "",
     titleClassName: "justify-center",
@@ -38,7 +41,7 @@ export const gridItems = [
   },
   {
     id: 4,
-    title: "Tech enthusiast with a passion for development.",
+    title: "A currency created with smart contracts.",
     description: "",
     className: "lg:col-span-2 md:col-span-3 md:row-span-1",
     imgClassName: "",
@@ -49,8 +52,8 @@ export const gridItems = [
 
   {
     id: 5,
-    title: "Currently building a JS Animation library",
-    description: "The Inside Scoop",
+    title: "Axioma academy for glabal certification",
+    description: "Become a member today",
     className: "md:col-span-3 md:row-span-2",
     imgClassName: "absolute right-0 bottom-0 md:w-96 w-60",
     titleClassName: "justify-center md:justify-start lg:justify-center",
@@ -59,7 +62,7 @@ export const gridItems = [
   },
   {
     id: 6,
-    title: "Do you want to start a project together?",
+    title: "If you have any questions, let's get in touch!",
     description: "",
     className: "lg:col-span-2 md:col-span-3 md:row-span-1",
     imgClassName: "",
@@ -72,32 +75,32 @@ export const gridItems = [
 export const projects = [
   {
     id: 1,
-    title: "3D Solar System Planets to Explore",
-    des: "Explore the wonders of our solar system with this captivating 3D simulation of the planets using Three.js.",
+    title: "Axioma Holding Forex",
+    des: "A top choice for automated traders, our order matching engine, processes over 500,000 trades per day, with more than two-thirds of all trades coming from automated trading systems.",
     img: "/p1.svg",
     iconLists: ["/re.svg", "/tail.svg", "/ts.svg", "/three.svg", "/fm.svg"],
     link: "/ui.earth.com",
   },
   {
     id: 2,
-    title: "Yoom - Video Conferencing App",
-    des: "Simplify your video conferencing experience with Yoom. Seamlessly connect with colleagues and friends.",
+    title: "Real Estate Investments",
+    des: "Axioma allows owners of properties up for auction or foreclosure to regain possession of their home thanks to the support of a network founded on ethics and sustainability.",
     img: "/p2.svg",
     iconLists: ["/next.svg", "/tail.svg", "/ts.svg", "/stream.svg", "/c.svg"],
     link: "/ui.yoom.com",
   },
   {
     id: 3,
-    title: "AI Image SaaS - Canva Application",
-    des: "A REAL Software-as-a-Service app with AI features and a payments and credits system using the latest tech stack.",
+    title: "Axioma Pay",
+    des: "Axioma - Crypto Cards with buying solutions",
     img: "/p3.svg",
     iconLists: ["/re.svg", "/tail.svg", "/ts.svg", "/three.svg", "/c.svg"],
     link: "/ui.aiimg.com",
   },
   {
     id: 4,
-    title: "Animated Apple Iphone 3D Website",
-    des: "Recreated the Apple iPhone 15 Pro website, combining GSAP animations and Three.js 3D effects..",
+    title: "Axioma Eagle City",
+    des: "Axioma Eagle City crescent should around 800 meters wide and should be about 10.5 miles (17 km) long altogether.",
     img: "/p4.svg",
     iconLists: ["/next.svg", "/tail.svg", "/ts.svg", "/three.svg", "/gsap.svg"],
     link: "/ui.apple.com",
@@ -107,33 +110,33 @@ export const projects = [
 export const testimonials = [
   {
     quote:
-      "Collaborating with Adrian was an absolute pleasure. His professionalism, promptness, and dedication to delivering exceptional results were evident throughout our project. Adrian's enthusiasm for every facet of development truly stands out. If you're seeking to elevate your website and elevate your brand, Adrian is the ideal partner.",
+      "Axioma revolutionizes real estate with cryptocurrency, offering property owners in auction or confiscation scenarios the opportunity to reclaim their homes through an ethically and sustainably anchored network.",
     name: "Michael Johnson",
-    title: "Director of AlphaStream Technologies",
+    title: "Some newspapers",
   },
   {
     quote:
-      "Collaborating with Adrian was an absolute pleasure. His professionalism, promptness, and dedication to delivering exceptional results were evident throughout our project. Adrian's enthusiasm for every facet of development truly stands out. If you're seeking to elevate your website and elevate your brand, Adrian is the ideal partner.",
+      "AXIOMA is a real estate-focused project offering a second chance for homeowners facing risk and an ethical investment avenue for investors. Leveraging cryptocurrency breakthroughs, it empowers individuals to reclaim ownership of auctioned real estate through an ethical and sustainable network.",
     name: "Michael Johnson",
-    title: "Director of AlphaStream Technologies",
+    title: "Some newspapers",
   },
   {
     quote:
-      "Collaborating with Adrian was an absolute pleasure. His professionalism, promptness, and dedication to delivering exceptional results were evident throughout our project. Adrian's enthusiasm for every facet of development truly stands out. If you're seeking to elevate your website and elevate your brand, Adrian is the ideal partner.",
+      "Axioma Holding is a British company, founded in 2019. The platform facilitates peer-to-peer transactions in the global real estate market through the implementation of smart contracts and has various opportunities for business units in the areas of IT development, education, DEX, and public services.",
     name: "Michael Johnson",
-    title: "Director of AlphaStream Technologies",
+    title: "Some newspapers",
   },
   {
     quote:
-      "Collaborating with Adrian was an absolute pleasure. His professionalism, promptness, and dedication to delivering exceptional results were evident throughout our project. Adrian's enthusiasm for every facet of development truly stands out. If you're seeking to elevate your website and elevate your brand, Adrian is the ideal partner.",
+      "AXIOMA utilizes blockchain in real estate to enable former owners to stay in their homes and maintain property values, facilitated through the Axioma token.",
     name: "Michael Johnson",
-    title: "Director of AlphaStream Technologies",
+    title: "Some newspapers",
   },
   {
     quote:
-      "Collaborating with Adrian was an absolute pleasure. His professionalism, promptness, and dedication to delivering exceptional results were evident throughout our project. Adrian's enthusiasm for every facet of development truly stands out. If you're seeking to elevate your website and elevate your brand, Adrian is the ideal partner.",
+      "Fuck me idk",
     name: "Michael Johnson",
-    title: "Director of AlphaStream Technologies",
+    title: "Some newspapers",
   },
 ];
 
@@ -173,29 +176,29 @@ export const companies = [
 export const workExperience = [
   {
     id: 1,
-    title: "Frontend Engineer Intern",
-    desc: "Assisted in the development of a web-based platform using React.js, enhancing interactivity.",
+    title: "Vision",
+    desc: "Lorem ipsum odor amet, consectetuer adipiscing elit. Nostra varius fermentum vestibulum iaculis auctor pulvinar felis.",
     className: "md:col-span-2",
     thumbnail: "/exp1.svg",
   },
   {
     id: 2,
-    title: "Mobile App Dev - JSM Tech",
-    desc: "Designed and developed mobile app for both iOS & Android platforms using React Native.",
+    title: "Mission",
+    desc: "Lorem ipsum odor amet, consectetuer adipiscing elit. Cras vulputate odio felis finibus nisl, felis dis congue.",
     className: "md:col-span-2", // change to md:col-span-2
     thumbnail: "/exp2.svg",
   },
   {
     id: 3,
-    title: "Freelance App Dev Project",
-    desc: "Led the dev of a mobile app for a client, from initial concept to deployment on app stores.",
+    title: "Purpose",
+    desc: "Lorem ipsum odor amet, consectetuer adipiscing elit. Nulla accumsan taciti est tincidunt penatibus urna luctus finibus nostra.",
     className: "md:col-span-2", // change to md:col-span-2
     thumbnail: "/exp3.svg",
   },
   {
     id: 4,
-    title: "Lead Frontend Developer",
-    desc: "Developed and maintained user-facing features using modern frontend technologies.",
+    title: "Values",
+    desc: "Lorem ipsum odor amet, consectetuer adipiscing elit. Semper suspendisse nunc pretium, quam egestas ornare cras scelerisque!",
     className: "md:col-span-2",
     thumbnail: "/exp4.svg",
   },
